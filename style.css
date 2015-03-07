@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    background-color: #CAE1FF;
+    font-family: sans-serif;
+}
+
+#blogtitle {
+    text-align: center;
+    font-weight: normal;
+    font-size: 200%;
+}
+
+header {
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul#nav li {
+    display: inline;
+    border: 1px solid black;
+    border-right: none;
+    padding: 1em;
+    font-size: 14px;
+}
+
+ul#nav li:hover {
+    background-color: #003A70;
+    color: white;
+}
+
+ul#nav li:first-child {
+    border-left: none;
+}
+
+ul#nav li:last-child {
+    border-right: 1px solid black;
+}
+
+ul#nav {
+    font-size: 0;
+    padding-left: 0;
+    margin-bottom: 0px;
+    border: 1px solid black;
+    border-left: none;
+    border-right: none;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.post {
+    border-bottom: 1px solid black;
+    padding-left: 20px;
+}
+
+.post p {
+    width: 90%;
+}
+
+.post:last-child {
+    border-bottom: none;
+}
+
+#siteinfo {
+    font-size: 80%;
+    text-align: center;
+}
+
+#meat {
+    overflow: auto;
+    border-bottom: 1px solid black;
+}
+
+#bottom {
+    width: 100%;
+}
+
+#posts {
+    width: 80%;
+    float: left;
+    border-right: 1px solid black;
+}
+
+#sidebar {
+    width: 15%;
+    float: left;
+    height: auto;
+    padding-left: 5px;
+    line-height: 1.2em;
+    font-size: 80%;
+    font-style: italic;
+}
+
+#content {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border: 3px solid black;
+    background-color: white;
+    margin-bottom: 40px;
+}
+
+#nextlink {
+    margin-left: 20px;
+    text-decoration: underline;
+    text-align: right;
+}
+
+.datelink:hover {
+    border-bottom: 1px dashed black;
+}

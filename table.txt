@@ -1,0 +1,16 @@
+table schema
+
+in database "mydb"
+
+use mydb;
+SHOW TABLES;
+
+CREATE TABLE myPosts (
+	id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+	title VARCHAR(30) NOT NULL,
+	body MEDIUMTEXT,
+	postdate DATE
+);
+
+INSERT INTO myposts (title, body, postdate) VALUES ('foo', 'bar', NOW());
+SELECT * FROM myposts;
